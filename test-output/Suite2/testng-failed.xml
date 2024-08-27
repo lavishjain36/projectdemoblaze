@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite2]">
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="pageobjectmodeljat21.TC002_SignupTest">
+        <methods>
+          <include name="browserLaunch"/>
+          <include name="SignupTest"/>
+          <include name="fileSetup"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- pageobjectmodeljat21.TC002_SignupTest -->
+      <class name="pageobjectmodeljat21.TC003_HomeTest">
+        <methods>
+          <include name="browserLaunch"/>
+          <include name="browserClose"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- pageobjectmodeljat21.TC003_HomeTest -->
+      <class name="pageobjectmodeljat21.TC007_EmployeeTest">
+        <methods>
+          <include name="createEmployee"/>
+        </methods>
+      </class> <!-- pageobjectmodeljat21.TC007_EmployeeTest -->
+      <class name="pageobjectmodeljat21.TC001_LoginTest">
+        <methods>
+          <include name="browserLaunch"/>
+          <include name="LoginTest"/>
+          <include name="browserClose"/>
+          <include name="fileSetup"/>
+        </methods>
+      </class> <!-- pageobjectmodeljat21.TC001_LoginTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite2] -->

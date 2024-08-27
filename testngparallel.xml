@@ -1,0 +1,9 @@
+<suites name="EmployeeSuite" parallel="suites" thread-count="2">
+	<suite name="Suite2">
+		<test name="Test2">
+			<packages>
+			<package name="pageobjectmodeljat21.*" />
+			</packages>
+		</test>
+	</suite>
+</suites>

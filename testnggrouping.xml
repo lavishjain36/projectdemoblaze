@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="EmployeeSuite">
+ 
+  <test name="Smoke Test">
+   <parameter name="empname"  value="Lavish"/>
+    <parameter name="empid"  value="101"/>
+  	<groups>	
+  		<run>
+  		<exclude name="smoke"/>
+  		</run>		
+  		<classes>
+  		<class name="pageobjectmodeljat21.TC007_EmployeeTest"/>
+  		</classes>
+  	</groups>
+  </test>
+  
+   <test name="Regression Test">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="www.testwebsite.com"/>
+    <parameter name="empname"  value="Lavish"/>
+    <parameter name="empid"  value="101"/>
+  	<groups>
+  	<run>
+  	<include name="regression"/>
+  	</run>	
+  	</groups>
+  	
+  	 <classes>
+      <class name="pageobjectmodeljat21.TC007_EmployeeTest"/>           
+    </classes>
+  </test>
+  
+  
+  <test name="Critical Test">
+   <parameter name="empname"  value="Lavish"/>
+    <parameter name="empid"  value="101"/>
+  	<groups>
+  	
+  		<run>
+  		<include name="critical"/>
+  		</run>
+  		
+  		<classes>
+  		<class name="pageobjectmodeljat21.TC007_EmployeeTest"/>
+  		</classes>
+  	</groups>
+  </test>
+  
+</suite> <!-- Suite -->

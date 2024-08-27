@@ -1,67 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="1" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-12T13:01:30 IST" name="Suite" finished-at="2024-08-12T13:01:44 IST" duration-ms="14071">
+  <suite started-at="2024-08-27T11:39:00 IST" name="Suite" finished-at="2024-08-27T11:39:45 IST" duration-ms="44808">
     <groups>
     </groups>
-    <test started-at="2024-08-12T13:01:30 IST" name="Test" finished-at="2024-08-12T13:01:44 IST" duration-ms="14071">
-      <class name="pageobjectmodeljat21.TC001_LoginTest">
-        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:pageobjectmodeljat21.TC001_LoginTest@5aa9e4eb]" started-at="2024-08-12T13:01:38 IST" name="browserLaunch" finished-at="2024-08-12T13:01:40 IST" duration-ms="2542" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://www.demoblaze.com/index.html]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserLaunch -->
-        <test-method signature="m1()[pri:0, instance:pageobjectmodeljat21.TC001_LoginTest@5aa9e4eb]" started-at="2024-08-12T13:01:40 IST" name="m1" finished-at="2024-08-12T13:01:40 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- m1 -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:pageobjectmodeljat21.TC001_LoginTest@5aa9e4eb]" started-at="2024-08-12T13:01:40 IST" name="browserClose" finished-at="2024-08-12T13:01:40 IST" duration-ms="91" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:pageobjectmodeljat21.TC001_LoginTest@5aa9e4eb]" started-at="2024-08-12T13:01:40 IST" name="browserLaunch" finished-at="2024-08-12T13:01:44 IST" duration-ms="3070" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://www.demoblaze.com/index.html]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserLaunch -->
-        <test-method signature="m2()[pri:0, instance:pageobjectmodeljat21.TC001_LoginTest@5aa9e4eb]" started-at="2024-08-12T13:01:44 IST" name="m2" finished-at="2024-08-12T13:01:44 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- m2 -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:pageobjectmodeljat21.TC001_LoginTest@5aa9e4eb]" started-at="2024-08-12T13:01:44 IST" name="browserClose" finished-at="2024-08-12T13:01:44 IST" duration-ms="90" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-      </class> <!-- pageobjectmodeljat21.TC001_LoginTest -->
+    <test started-at="2024-08-27T11:39:00 IST" name="Test" finished-at="2024-08-27T11:39:45 IST" duration-ms="44808">
       <class name="pageobjectmodeljat21.TC002_SignupTest">
-        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:pageobjectmodeljat21.TC002_SignupTest@74235045]" started-at="2024-08-12T13:01:30 IST" name="browserLaunch" finished-at="2024-08-12T13:01:33 IST" duration-ms="3534" status="PASS">
+        <test-method is-config="true" signature="fileSetup()[pri:0, instance:pageobjectmodeljat21.TC002_SignupTest@25df00a0]" started-at="2024-08-27T11:39:00 IST" name="fileSetup" finished-at="2024-08-27T11:39:00 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileSetup -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:pageobjectmodeljat21.TC002_SignupTest@25df00a0]" started-at="2024-08-27T11:39:01 IST" name="browserLaunch" finished-at="2024-08-27T11:39:08 IST" duration-ms="6938" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="1">
@@ -73,32 +27,169 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="SignupTest()[pri:0, instance:pageobjectmodeljat21.TC002_SignupTest@74235045]" started-at="2024-08-12T13:01:33 IST" name="SignupTest" finished-at="2024-08-12T13:01:38 IST" duration-ms="4653" status="PASS">
+        <test-method signature="SignupTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageobjectmodeljat21.TC002_SignupTest@25df00a0]" started-at="2024-08-27T11:39:08 IST" name="SignupTest" data-provider="ReadfromExcel" finished-at="2024-08-27T11:39:11 IST" duration-ms="2720" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lavish2030]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[newUser]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<This user already exist.> but was:<Sign up successful.>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<This user already exist.> but was:<Sign up successful.>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
+at pageobjectmodeljat21.TC002_SignupTest.SignupTest(TC002_SignupTest.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignupTest -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:pageobjectmodeljat21.TC002_SignupTest@74235045]" started-at="2024-08-12T13:01:38 IST" name="browserClose" finished-at="2024-08-12T13:01:38 IST" duration-ms="15" status="FAIL">
-          <exception class="org.openqa.selenium.UnhandledAlertException">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:pageobjectmodeljat21.TC002_SignupTest@25df00a0]" started-at="2024-08-27T11:39:11 IST" name="browserClose" finished-at="2024-08-27T11:39:12 IST" duration-ms="1090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:pageobjectmodeljat21.TC002_SignupTest@25df00a0]" started-at="2024-08-27T11:39:12 IST" name="browserLaunch" finished-at="2024-08-27T11:39:19 IST" duration-ms="6784" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/index.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="SignupTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageobjectmodeljat21.TC002_SignupTest@25df00a0]" started-at="2024-08-27T11:39:19 IST" name="SignupTest" data-provider="ReadfromExcel" finished-at="2024-08-27T11:39:22 IST" duration-ms="2675" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lavish123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ExistingUser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignupTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:pageobjectmodeljat21.TC002_SignupTest@25df00a0]" started-at="2024-08-27T11:39:22 IST" name="browserClose" finished-at="2024-08-27T11:39:23 IST" duration-ms="1164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:pageobjectmodeljat21.TC002_SignupTest@25df00a0]" started-at="2024-08-27T11:39:23 IST" name="browserLaunch" finished-at="2024-08-27T11:39:29 IST" duration-ms="6173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/index.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="SignupTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageobjectmodeljat21.TC002_SignupTest@25df00a0]" started-at="2024-08-27T11:39:29 IST" name="SignupTest" data-provider="ReadfromExcel" finished-at="2024-08-27T11:39:32 IST" duration-ms="2640" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[****]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gagd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[InvalidUserName]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoAlertPresentException">
             <message>
-              <![CDATA[unexpected alert open: {Alert text : Sign up successful.}
-  (Session info: chrome=127.0.6533.100): Sign up successful.
-Build info: version: '4.23.0', revision: '4df0a231af'
+              <![CDATA[Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0857456f4a0aec789baf22edc841ab20, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\DIGITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56024}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56024/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0857456f4a0aec789baf22edc841ab20]]>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ebeead4b-965d-4ab1-8a5d-3bb51e60022c, getAlertText {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.1, moz:accessibilityChecks: false, moz:buildID: 20240812083845, moz:debuggerAddress: 127.0.0.1:9605, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12556, moz:profile: C:\Users\DIGITA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:9605/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: ebeead4b-965d-4ab1-8a5d-3bb51e60022c]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Sign up successful.}
-  (Session info: chrome=127.0.6533.100): Sign up successful.
-Build info: version: '4.23.0', revision: '4df0a231af'
+              <![CDATA[org.openqa.selenium.NoAlertPresentException: Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0857456f4a0aec789baf22edc841ab20, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\DIGITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56024}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56024/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0857456f4a0aec789baf22edc841ab20
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ebeead4b-965d-4ab1-8a5d-3bb51e60022c, getAlertText {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.1, moz:accessibilityChecks: false, moz:buildID: 20240812083845, moz:debuggerAddress: 127.0.0.1:9605, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12556, moz:profile: C:\Users\DIGITA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:9605/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: ebeead4b-965d-4ab1-8a5d-3bb51e60022c
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
@@ -106,45 +197,124 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
-at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:407)
-at utils.Utility.closeBrowser(Utility.java:43)
-at base.ProjectsSpecificMethod.browserClose(ProjectsSpecificMethod.java:22)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1172)
+at pageobjectmodeljat21.TC002_SignupTest.SignupTest(TC002_SignupTest.java:51)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          </exception> <!-- org.openqa.selenium.NoAlertPresentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignupTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:pageobjectmodeljat21.TC002_SignupTest@25df00a0]" started-at="2024-08-27T11:39:32 IST" name="browserClose" finished-at="2024-08-27T11:39:33 IST" duration-ms="1261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:pageobjectmodeljat21.TC002_SignupTest@25df00a0]" started-at="2024-08-27T11:39:33 IST" name="browserLaunch" finished-at="2024-08-27T11:39:41 IST" duration-ms="8282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/index.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="SignupTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageobjectmodeljat21.TC002_SignupTest@25df00a0]" started-at="2024-08-27T11:39:41 IST" name="SignupTest" data-provider="ReadfromExcel" finished-at="2024-08-27T11:39:44 IST" duration-ms="2607" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[*****]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[InvalidPassword]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<This user already exist.> but was:<Please fill out Username and Password.>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<This user already exist.> but was:<Please fill out Username and Password.>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
+at pageobjectmodeljat21.TC002_SignupTest.SignupTest(TC002_SignupTest.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignupTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:pageobjectmodeljat21.TC002_SignupTest@25df00a0]" started-at="2024-08-27T11:39:44 IST" name="browserClose" finished-at="2024-08-27T11:39:45 IST" duration-ms="1155" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->

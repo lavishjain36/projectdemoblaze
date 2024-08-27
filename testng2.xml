@@ -1,0 +1,7 @@
+<suite name="executionSuite">
+<test name="execution1">
+ <packages>
+ <package name="pageobjectmodeljat21.*"/>
+ </packages>
+</test>
+</suite>

@@ -1,0 +1,13 @@
+<suite name="ExecutionSuite">
+<test name="Execution1">
+<groups>
+		<run>
+		<include name="group1"/>
+		<exclude name="group3"/>
+		</run>
+</groups>
+<packages>
+<package name="pageobjectmodeljat21.*"/>
+</packages>
+</test>
+</suite>

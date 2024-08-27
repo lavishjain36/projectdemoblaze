@@ -7,6 +7,7 @@
         <methods>
           <include name="browserLaunch"/>
           <include name="SignupTest"/>
+          <include name="fileSetup"/>
           <include name="browserClose"/>
         </methods>
       </class> <!-- pageobjectmodeljat21.TC002_SignupTest -->
